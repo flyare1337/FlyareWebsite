@@ -1,0 +1,75 @@
+body {
+    background-color: #3f3f49;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    background: url('https://vsthemes.org/uploads/posts/2020-10/1603470086_screenshot_15.jpg');
+}
+
+.nav {
+    padding: 0px 40px 0px 40px;
+
+    height: 70px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.mylogo {
+    border: 2px solid grey;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.navtext {
+    color: #5865F2;
+    font-size: 25px;
+    left: 0;
+    vertical-align: middle;
+}
+
+
+.intro {
+    
+    padding-top: 150px;
+    text-align: center;
+    height: 500px;
+
+}
+
+.introtext {
+    color: yellowgreen;
+    font-size: 50px;
+}
+.introdesc {
+    color: white;
+    font-size: 30px;
+    
+}
+
+.titlew {
+    color: black;
+    font-size: 40px;
+    padding-top: 40px;
+} 
+.btns {
+    justify-content: space-between;
+    position: relative;
+    display: block;
+
+
+}
+
+.btni {
+    margin: 0 10px;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.btni:hover {
+    color: teal;
+}

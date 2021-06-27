@@ -84,27 +84,23 @@ body {
     font-size: 20px;
 }
 
-.wrappers {
-    text-align: center;
-    position: relative;
-    display: flex;
-}
+
 
 .wrapper {
     background-color: #212529;
-    height: 170px;
-    width: 330px;
     border-radius: 3px;
-    margin: 0 10px;
+    margin: 10px 10px;
 }
 
 .wrapper__image {
     height: 100px;
     width: 100px;
-    border-radius: 100%;
+
     padding-top: 10px;
 }
 
-section {
-    display: inline-flex;
+.wrapper__image1 {
+    border-radius: 50%;
 }
+
+

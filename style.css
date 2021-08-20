@@ -1,9 +1,11 @@
 body {
-    background-color: #3f3f49;
+    background-color: #1c1e20;
     font-family: 'Exo 2', sans-serif;
     margin: 0;
     color: white;
     background: url('https://vsthemes.org/uploads/posts/2020-10/1603470086_screenshot_15.jpg');
+    background-size: 500%;
+
 }
 
 .nav {

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&family=Rubik:wght@300&display=swap');
+body {
+    max-width: 60ch;
+    margin: 5em auto;
+    line-height: 1.6;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    background: url(bg.svg);
+
+
+}
+.container {
+    text-align: center;
+}
+
+.myLogo {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.desc {
+    font-size: 25px;
+}
+
+.imagecard {
+    width: 200px;
+    height: 200px;
+}
+
+.btns {
+    text-align: center;
+}
+
+.btn {
+    margin: 15px;
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease;
+
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-ds {
+    background: #5865F2;
+}
+
+.btn-ds:hover {
+    background: #4650c0;
+}
+
+.btn-bot {
+    background: #c01d53;
+}
+
+.btn-bot:hover {
+    background: #8a1139;
+}
+
+.btn-topcord {
+    background: #7289DA;
+}
+
+.btn-topcord:hover {
+    background: #5366ac;
+}
+
+.textHover {
+    text-decoration: none;
+    color: white;
+    transition: .5s ease;
+}
+
+.textHover:hover {
+    color: #c1c1c1;
+}
+
+@media (max-width: 400px) {
+    .btn {
+        
+        display: block;
+    }
+}
